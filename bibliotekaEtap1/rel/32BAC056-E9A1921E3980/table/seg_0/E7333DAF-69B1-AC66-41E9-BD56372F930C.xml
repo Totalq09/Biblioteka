@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7333DAF-69B1-AC66-41E9-BD56372F930C" name="Biblioteka">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>142A0EF1-FBA7-0341-0EF7-DAF928E4553F</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDczytelnika" id="D0231B94-1415-C0B3-3798-5AB7A941F2E5">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>B0594DD3-5556-498A-FF78-1E37F4864245</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68701BFB-630E-228C-A410-2CFCA5F57B42" referredColumn="4245106C-612A-BDC8-7C90-5B805783B42B"/>
+</associations>
+</Column>
+<Column name="NIP" id="F32ED4E0-1AF4-0169-C090-95A397D59944">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>6BBE4D23-FF05-EF6B-85D9-C1B30DA63A11</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="E08E2FF5-4911-F248-4431-E08F305C11CD">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>A5426B84-BB93-14AB-CE8A-82FFF3BE3DCD</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="AEFBFD1C-4F8B-BA6E-6C29-CBA3A3977D37">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>9A5F9C90-593D-1AB8-322C-879849C011D6</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="602A2CA9-C9FF-461A-5D00-AF21524D2A44" name="Biblioteka_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>1CF65BCD-EFA6-2411-6D0B-1DBC97318305</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0231B94-1415-C0B3-3798-5AB7A941F2E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8241DD7A-4B40-F457-7C8C-6DB5BFE8875A" name="Biblioteka_Czytelnik_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>356B2AA0-9AA0-9F69-7414-1536829D712A</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0231B94-1415-C0B3-3798-5AB7A941F2E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

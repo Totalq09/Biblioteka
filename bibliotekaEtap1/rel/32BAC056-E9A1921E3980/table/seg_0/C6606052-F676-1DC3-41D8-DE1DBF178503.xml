@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6606052-F676-1DC3-41D8-DE1DBF178503" name="Czytelnik">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>0E7F01DF-2484-84D2-9252-3EEEF0704EA5</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDczytelnika" id="4245106C-612A-BDC8-7C90-5B805783B42B">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>B0594DD3-5556-498A-FF78-1E37F4864245</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres" id="921474B0-696A-8A28-F6CD-CA7468FDB6C8">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>01BD2D5C-AD30-EB13-4121-17F8DF9DFFE7</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="7053B0A1-B241-9144-7147-32ABDA2CFB02">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>21C73DD4-89F4-98EC-765A-DA3641092F62</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ" id="A5CB324A-1758-AA6B-13C9-97C58C941EDE">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<constraintName>CH_INH_Czytelnik</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="Biblioteka" description="entity Biblioteka"/>
+<valueDef value="Osoba" description="entity Osoba"/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="Haslo" id="43BAAEFC-152B-F9D2-6A3F-26B542B7ED67">
+<createdBy>piter</createdBy>
+<createdTime>2017-01-02 17:20:51 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2896097-FAB3-C099-0D5A-22C4F144BDBE" name="Czytelnik_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>1CF65BCD-EFA6-2411-6D0B-1DBC97318305</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4245106C-612A-BDC8-7C90-5B805783B42B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FD7A033-0132-8B70-981D-43CCC9D7AE74" name="Czytelnik_Email_UN">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>5762EBEF-167F-9EC8-CE2A-9EBCEB96C447</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7053B0A1-B241-9144-7147-32ABDA2CFB02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

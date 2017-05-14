@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B585C0E-3557-6740-B05F-118360CDB2DE" name="Stanowisko">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>A8EA8632-B1AE-9882-380B-5CBF9E1004C3</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDstanowiska" id="1BEDE07E-A644-05D0-E7BF-9FFC763161E3">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>ECA14134-423B-5193-E576-910707FD7D6F</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="C61CABB9-566D-12A1-83B3-40D5703CEE59">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>17BAB75D-7358-421C-BEA0-F6B1FEFEAE17</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10A73517-C875-FDAF-14BD-5113EC9F7262" name="Stanowisko_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>95B49CB6-43AD-E63B-0D53-5E365FB2E90D</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BEDE07E-A644-05D0-E7BF-9FFC763161E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA4FE355-6185-4855-AC2F-926B3A8C28C8" name="Stanowisko_Nazwa_UN">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>D534EC81-52AA-ACB0-6315-24B7498398ED</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C61CABB9-566D-12A1-83B3-40D5703CEE59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

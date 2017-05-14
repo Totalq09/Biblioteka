@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29C5FE42-1F6E-62C5-B17E-9F362ADE1C20" name="Jezyk">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>9A3554E7-18AB-160B-21FF-FCB556F968CC</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDjezyka" id="DFA0D95B-D546-66D5-8424-9B81DD1BD4C6">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>4450F340-2D70-95CE-EF45-E96D613789F5</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="B3ABF11A-C14E-3214-B979-35F5A9C45400">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>E4315C9A-4FAD-E84D-D0C9-8648D9C50EFF</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDFFD2AD-C910-B2DF-922F-0EAAF16D9C3F" name="Jezyk_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>33B39715-5CE3-D2CE-47CC-F374723B2D62</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFA0D95B-D546-66D5-8424-9B81DD1BD4C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="250C1A87-537C-7F39-4293-ED4E54DFAB4F" name="Jezyk_Nazwa_UN">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>8C589C2B-950C-5CAC-CCBD-D0B012EC6175</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3ABF11A-C14E-3214-B979-35F5A9C45400"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

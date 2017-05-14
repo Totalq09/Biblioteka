@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_18" directorySegmentName="seg_0" id="180455A1-40C2-95F4-E460-00E55144D32A">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:28:25 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<sourcePk>E6AD5617-4B31-1F46-EBC9-1876B53022A8</sourcePk>
+<targetPk>AFE57275-06AD-E2DA-C097-96DC9A40DEAB</targetPk>
+<identifying>false</identifying>
+<nameOnTarget>Wydal</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7B11C37D-76EB-34FC-1DF1-B4359DC3BE76</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9A4D1B19-2BBD-B9AD-E388-8E76B2FEEC64</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

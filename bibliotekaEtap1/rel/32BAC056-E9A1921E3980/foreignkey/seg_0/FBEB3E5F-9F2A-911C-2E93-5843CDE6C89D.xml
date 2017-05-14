@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FBEB3E5F-9F2A-911C-2E93-5843CDE6C89D" containerWithKeyObject="B771785B-83CF-01B7-073B-AA1BCF3B2D9A" localFKIndex="817C044E-8A10-C790-2664-3830394FD731" name="Kara_Rewers_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>28606550-CA44-D5D6-F70D-01C715C2BA25</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CDB9C933-6881-1352-7CEB-75916A1BDA25</referredTableID>
+<keyObject>2F840DBC-E924-3DEF-4E52-AB1CE7031E1A</keyObject>
+<referredKeyID>2F840DBC-E924-3DEF-4E52-AB1CE7031E1A</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

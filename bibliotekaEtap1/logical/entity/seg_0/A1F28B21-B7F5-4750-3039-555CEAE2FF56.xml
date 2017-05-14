@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1F28B21-B7F5-4750-3039-555CEAE2FF56" name="Placowka">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 12:55:30 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDplacowki" id="4E6D1A4B-18A5-4834-84A8-3432C4EF12E2">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:16:59 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="ABEC5129-672E-82EE-44B5-53C4C07E19CC">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:17:17 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres" id="BFD8AF83-1A7D-B2FB-ABF7-8F492A61C97C">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:17:42 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StronaInternetowa" id="4116FB67-2E12-33BE-181F-405E430C14F8">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:28:58 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="5E274209-5498-79A0-E328-0CA386C879F9">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:17:50 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TelefonWewnetrzny" id="B43D0628-7BFF-F876-797E-6E7E07E55E1A">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:18:33 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefon" id="BDFBAE78-5129-9610-8F5F-FC52D9BD38D1">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:18:10 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6904EE69-D5D1-E960-88E1-EEE29086FA0F" name="Placowka PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:17:14 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E6D1A4B-18A5-4834-84A8-3432C4EF12E2</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C7B1AF79-BB07-6F49-EEBC-9229F28A8C03" name="Unique Name">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 19:52:39 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<newElementsIDs>ABEC5129-672E-82EE-44B5-53C4C07E19CC</newElementsIDs>
+<usedAttributes>
+<attributeRef>ABEC5129-672E-82EE-44B5-53C4C07E19CC</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="583263CC-6600-BD9F-3964-510587FAF183" name="Uniqe Number">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 19:54:01 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<newElementsIDs>BDFBAE78-5129-9610-8F5F-FC52D9BD38D1</newElementsIDs>
+<usedAttributes>
+<attributeRef>BDFBAE78-5129-9610-8F5F-FC52D9BD38D1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4333B70A-3965-9652-1226-2253037BF529" name="Unique Internal Number">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:49:53 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<newElementsIDs>B43D0628-7BFF-F876-797E-6E7E07E55E1A</newElementsIDs>
+<usedAttributes>
+<attributeRef>B43D0628-7BFF-F876-797E-6E7E07E55E1A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

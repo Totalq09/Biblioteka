@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81461B90-2030-C5ED-7B3D-4A9581822297" name="Wydawca">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>9A4D1B19-2BBD-B9AD-E388-8E76B2FEEC64</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDwydawcy" id="135700D3-8F7D-3AFD-B1BB-3BD9EB53171B">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>465F3066-840C-C196-CBF6-346A2FB79054</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="823EC19F-6F18-1D6E-794E-9CA8E6BCAA9E">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>D32CDA6A-8FEF-5A38-C5F8-979F2446540D</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StronaInternetowa" id="2F08AE6A-9FD4-8FF2-953B-D7D5118B2ED4">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>E4103C6C-31D4-A6BA-8958-38C2B2B3D80F</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F02D1EA6-A72F-416A-059C-E01D689358B2" name="Wydawca_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>AFE57275-06AD-E2DA-C097-96DC9A40DEAB</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="135700D3-8F7D-3AFD-B1BB-3BD9EB53171B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="342DC3C0-BE96-BB01-9F5C-1F534AB73F4C" name="Wydawca_Nazwa_UN">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>3F938DD4-386A-175A-78FE-FF91467F677E</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="823EC19F-6F18-1D6E-794E-9CA8E6BCAA9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

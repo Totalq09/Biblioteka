@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B771785B-83CF-01B7-073B-AA1BCF3B2D9A" name="Kara">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>E79D8BC4-594F-B4B2-F166-A17630103AF9</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kwota" id="AA2B204D-5123-6CA5-77A2-B4E1FD3ADB8B">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>E9088495-5D07-93E7-EA80-CE49C7975BFB</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TerminWplaty" id="40DDF4CD-AA80-0433-2604-779E7814E3A2">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>A1340995-F99A-075D-2B15-C0E0DCA75010</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Czytelnik_IDczytelnika" id="F39ADFD5-1971-B9AB-503D-184125C8040C">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>F570F055-7EFA-017C-9AC0-923EF9126404</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1067A942-2410-BE02-0DE1-21E6245ED52B" referredColumn="4245106C-612A-BDC8-7C90-5B805783B42B"/>
+</associations>
+</Column>
+<Column name="Rewers_IDrewersu" id="BB120EF9-EE0E-14A5-40F2-1F184AE9DE54">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>55C19898-3698-2191-C6D9-AE21619FAAF9</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBEB3E5F-9F2A-911C-2E93-5843CDE6C89D" referredColumn="35C1BF55-FBB5-E9D8-1270-CC0603D70A63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA13D089-78FA-8E1E-C203-3EC4658B9A21" name="Kara_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>F692586B-85CD-901D-D1CF-DD08DE01A80B</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB120EF9-EE0E-14A5-40F2-1F184AE9DE54"/>
+<colUsage columnID="F39ADFD5-1971-B9AB-503D-184125C8040C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ADB0004-203C-999C-02C0-D7BBC5386238" name="Kara_Czytelnik_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>7371500C-43FD-ECC6-8C31-9F4EBED17347</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F39ADFD5-1971-B9AB-503D-184125C8040C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="817C044E-8A10-C790-2664-3830394FD731" name="Kara_Rewers_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>28606550-CA44-D5D6-F70D-01C715C2BA25</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB120EF9-EE0E-14A5-40F2-1F184AE9DE54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

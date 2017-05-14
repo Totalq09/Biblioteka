@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E706EB4F-2E6F-82EB-868C-D23BEA643CEE" name="Rewers">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 11:44:05 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDrewersu" id="51C84E8F-2BAA-8783-1405-309B28B26614">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:04:33 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataUtworzenia" id="65AD0348-F71F-5FE7-78EC-4B2EC8356151">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 11:44:24 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OkresWypozyczenia" id="2BAD8609-C8FD-778E-4738-1A3745138E0F">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 11:44:34 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataZwrotu" id="69C91A08-3B48-7DDD-7C27-50CFDBEDD949">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 11:44:48 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDczytelnika" id="EE156897-02D8-9FE5-C122-DE4FD0644063">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 11:59:05 UTC</createdTime>
+<generatorID>4BA26A0A-8ED9-D025-650B-17A578453F6D</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<referedAttribute>B0594DD3-5556-498A-FF78-1E37F4864245</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDwoluminu" id="1624CC30-B278-A582-C08C-A239917AED94">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:13:06 UTC</createdTime>
+<generatorID>6D77FB55-F010-AADD-78F1-44BB9048886A</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<referedAttribute>AE7A269C-EE03-57DE-8BB1-144216F898C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB7B1D71-8F64-3CD4-B819-551F59E2C8FE" name="Rewers PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:05:16 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>51C84E8F-2BAA-8783-1405-309B28B26614</newElementsIDs>
+<usedAttributes>
+<attributeRef>51C84E8F-2BAA-8783-1405-309B28B26614</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

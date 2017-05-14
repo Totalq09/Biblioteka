@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18C43EDF-F19F-B790-BB08-E9067A237569" name="Placowka">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>A1F28B21-B7F5-4750-3039-555CEAE2FF56</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDplacowki" id="FEA98FB3-E8F2-DCCF-AEC9-DC4A84CE4537">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>4E6D1A4B-18A5-4834-84A8-3432C4EF12E2</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="CA5EB988-BCC2-805D-1AD1-E1AF8101726F">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>ABEC5129-672E-82EE-44B5-53C4C07E19CC</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres" id="9153BDC9-B81B-45B1-CB5C-554FAA36FD63">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>BFD8AF83-1A7D-B2FB-ABF7-8F492A61C97C</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StronaInternetowa" id="FF40284B-D548-2DF9-3966-26D34FCBD9E9">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>4116FB67-2E12-33BE-181F-405E430C14F8</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="30660B13-346C-F0CA-32D3-6EDECAAC6E68">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>5E274209-5498-79A0-E328-0CA386C879F9</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelefonWewnetrzny" id="AD178CCB-6BF8-3AB2-6AD5-E26CC40B16BA">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>B43D0628-7BFF-F876-797E-6E7E07E55E1A</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="51436B03-3FE8-0482-82C9-1E10CCD68D65">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>BDFBAE78-5129-9610-8F5F-FC52D9BD38D1</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62966DE2-9EA6-E9B5-AD30-1485855ABA21" name="Placowka_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>6904EE69-D5D1-E960-88E1-EEE29086FA0F</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEA98FB3-E8F2-DCCF-AEC9-DC4A84CE4537"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB9773C0-6E0F-A281-78EC-0D377CE61616" name="Placowka_Nazwa_UN">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>C7B1AF79-BB07-6F49-EEBC-9229F28A8C03</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA5EB988-BCC2-805D-1AD1-E1AF8101726F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C27F8134-7D3D-72E0-ACD6-DF8CE0A93C79" name="Placowka_Telefon_UN">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>583263CC-6600-BD9F-3964-510587FAF183</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51436B03-3FE8-0482-82C9-1E10CCD68D65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAD14FD1-2670-0689-4918-C4E0815C126C" name="Placowka_Wewnetrzny_UN">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:49:10 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD178CCB-6BF8-3AB2-6AD5-E26CC40B16BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

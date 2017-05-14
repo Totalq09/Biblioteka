@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D904111F-B83E-ACEE-BFE4-0C22CDF683EA" name="Autor">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>F7F59859-1532-5BE1-FE20-0B940D9AB6A2</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDautora" id="4C44686D-F684-D227-C1D2-91BE52CEDC78">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>0A5B0EF3-4B65-E3E4-82A5-88E14CBA0D5C</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="7A6949C3-1A94-A9B8-62A3-E7A04FF939BA">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>DE0EBB82-5BE1-2247-41AE-FB82F20A624A</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="1CD02249-2611-3D4C-93DF-6F36539DE527">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>865C23F0-B97D-362F-C0A0-76276C6E23C5</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DD2098B-4BD9-6915-48C1-BA7F811F0390" name="Autor_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>30105F61-62F4-D565-F35C-77ED783CBA22</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C44686D-F684-D227-C1D2-91BE52CEDC78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67687A76-F053-D300-8EAD-1CDCDBAABE46" name="Autor__IDX">
+<createdBy>piter</createdBy>
+<createdTime>2017-01-02 17:11:24 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A6949C3-1A94-A9B8-62A3-E7A04FF939BA"/>
+<colUsage columnID="1CD02249-2611-3D4C-93DF-6F36539DE527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

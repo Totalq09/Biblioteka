@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="97421326-FBB1-4CC1-BDCC-F709B8DCE1B1" containerWithKeyObject="5B0A9F10-246D-5353-9701-6FEA4356D550" localFKIndex="827778A8-914A-7622-6EA5-9A79929E7015" name="Wolumin_Pozycja_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>3DF6377A-95DF-815D-44C2-76BC5B1E755C</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2477FFAF-68BE-AAD6-9746-86EA83526121</referredTableID>
+<keyObject>D6A982B1-CED3-9E38-800E-17F6DF7651AB</keyObject>
+<referredKeyID>D6A982B1-CED3-9E38-800E-17F6DF7651AB</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

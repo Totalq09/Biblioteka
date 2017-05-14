@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEBA69B7-5B1E-508C-8029-813F3CC0FD59" name="Pracownik">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>4B7D4F39-3539-D019-64D0-36CE321D37CA</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Placowka_IDplacowki" id="50FFD68E-659A-C560-3C8F-C220E80FF693">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>EF2732C1-D171-C70B-98CA-1C291FC8B673</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D735614-37AA-CBE9-427A-3E7613686DF3" referredColumn="FEA98FB3-E8F2-DCCF-AEC9-DC4A84CE4537"/>
+</associations>
+</Column>
+<Column name="IDpracownika" id="3017C533-0BCB-84BC-6B26-3D51225BA90A">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>BDECEBF3-1008-2779-4B2A-FA09FCE3B322</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="0A26535C-822D-94F2-5C7D-7D6C59A9BAFA">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>45CF895A-0701-2CC6-394F-035784A94DEF</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="7588F55D-BDBE-FCD2-1FBF-1331DA363688">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>80103BBD-2780-AFA5-3F61-137B325C3BA0</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pensja" id="7A9CBF67-2779-4EF2-8D99-173EB61A2BB5">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>F85951CE-1AD9-0CCA-0365-3121B4EE2030</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres" id="28B7F5FC-CCE7-DDC8-E0E5-53E6CB74A814">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>63B2C708-9E29-78CF-6A67-75CA4CE79704</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stanowisko_IDstanowiska" id="C584BA61-83B3-D633-0DD8-1648BB0F8169">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>580F955A-30E6-5170-1D0D-7E7D4E853364</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73D21577-AC4D-9BCA-BDFB-D1B498514A6A" referredColumn="1BEDE07E-A644-05D0-E7BF-9FFC763161E3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92DA3B6E-2AE4-2B4A-641F-FD506B8B8887" name="Pracownik_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>2B944321-620F-5D6F-BC98-8E3C1128E855</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3017C533-0BCB-84BC-6B26-3D51225BA90A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FC43976-E984-5FC3-6303-DB23DA3F94E8" name="Pracownik_Placowka_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>E6D0D6F6-1192-BD27-AB28-6C6297E5C25F</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50FFD68E-659A-C560-3C8F-C220E80FF693"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6452B095-C757-C8E7-2FF3-35D55DFFE0F1" name="Pracownik_Stanowisko_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>D7DB626A-6DF8-C852-4E2E-BD386354ADBF</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C584BA61-83B3-D633-0DD8-1648BB0F8169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

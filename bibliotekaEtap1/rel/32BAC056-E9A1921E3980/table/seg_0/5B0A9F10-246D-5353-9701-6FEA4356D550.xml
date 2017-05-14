@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B0A9F10-246D-5353-9701-6FEA4356D550" name="Wolumin">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>24A012D9-B475-6E8E-6EC2-95DDB754E581</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDwoluminu" id="A7C6033C-AB8D-2E38-7FAE-F8795EC2BDD8">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>AE7A269C-EE03-57DE-8BB1-144216F898C5</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pozycja_IDpozycji" id="21F16010-D3BC-A705-4BE9-503A172F488F">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>2D5B8015-2624-8345-DFBE-82EE411EEE5D</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97421326-FBB1-4CC1-BDCC-F709B8DCE1B1" referredColumn="C5EA6A42-07FD-E012-B4F3-C0E9C9CC601E"/>
+</associations>
+</Column>
+<Column name="Placowka_IDplacowki" id="5A70197F-BC33-320C-DEB2-4B7DA78CEB98">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>BCDEB8DF-9DDF-CEC6-2A98-87423DBB0E45</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96929243-6E0E-0953-C3E0-936CBFB35F63" referredColumn="FEA98FB3-E8F2-DCCF-AEC9-DC4A84CE4537"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C270A06-1461-F8AF-DB5D-72E48255E909" name="Wolumin_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>13C7B61F-894E-0D18-569F-A1DF7417E713</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7C6033C-AB8D-2E38-7FAE-F8795EC2BDD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27ED1CC0-7CDE-2320-6D2C-92126F0EDA09" name="WoluminPozycja__IDX">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-27 12:24:17 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21F16010-D3BC-A705-4BE9-503A172F488F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="827778A8-914A-7622-6EA5-9A79929E7015" name="Wolumin_Pozycja_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>3DF6377A-95DF-815D-44C2-76BC5B1E755C</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21F16010-D3BC-A705-4BE9-503A172F488F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D92757B-CCE1-71C9-F0EE-9E35B720F04E" name="Wolumin_Placowka_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>16F67A06-DEDF-92CE-2379-BF58098BF905</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A70197F-BC33-320C-DEB2-4B7DA78CEB98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

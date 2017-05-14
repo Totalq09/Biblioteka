@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDB9C933-6881-1352-7CEB-75916A1BDA25" name="Rewers">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>E706EB4F-2E6F-82EB-868C-D23BEA643CEE</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDrewersu" id="35C1BF55-FBB5-E9D8-1270-CC0603D70A63">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>51C84E8F-2BAA-8783-1405-309B28B26614</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataUtworzenia" id="B40AF24E-0C0E-C327-F0BF-45478DB0CCD5">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>65AD0348-F71F-5FE7-78EC-4B2EC8356151</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OkresWypozyczenia" id="AC9089DB-5BA8-54D3-F1A1-792611DD27CA">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>2BAD8609-C8FD-778E-4738-1A3745138E0F</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataZwrotu" id="3423764F-89A3-1B00-D6F3-319917A0A6D1">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>69C91A08-3B48-7DDD-7C27-50CFDBEDD949</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Czytelnik_IDczytelnika" id="02CEC235-445D-B5F1-1F3C-B6DB1EE466FA">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>EE156897-02D8-9FE5-C122-DE4FD0644063</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71B95540-5845-9CEB-553E-3F1961CD0467" referredColumn="4245106C-612A-BDC8-7C90-5B805783B42B"/>
+</associations>
+</Column>
+<Column name="Wolumin_IDwoluminu" id="46B6E3FF-A69F-BD9A-2891-33A458737AD8">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>1624CC30-B278-A582-C08C-A239917AED94</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CA0A676-0142-35F9-7C2E-9F8552A18C65" referredColumn="A7C6033C-AB8D-2E38-7FAE-F8795EC2BDD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F840DBC-E924-3DEF-4E52-AB1CE7031E1A" name="Rewers_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>CB7B1D71-8F64-3CD4-B819-551F59E2C8FE</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35C1BF55-FBB5-E9D8-1270-CC0603D70A63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28D6A885-44AA-C9F4-13F1-B834FB7ACE60" name="RewersCzytelnik__IDX">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-27 12:27:12 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02CEC235-445D-B5F1-1F3C-B6DB1EE466FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4345E6FB-AAF8-CC9B-07F8-AA13EBED9C05" name="RewersWolumin__IDX">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-27 12:27:12 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46B6E3FF-A69F-BD9A-2891-33A458737AD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D31124B-F818-3D0A-BA2A-E6940A9ED90F" name="Rewers_Wolumin_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>6D77FB55-F010-AADD-78F1-44BB9048886A</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46B6E3FF-A69F-BD9A-2891-33A458737AD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5487CD1E-0A11-173C-50C2-8F7FDBC4BB8C" name="Rewers_Czytelnik_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>4BA26A0A-8ED9-D025-650B-17A578453F6D</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02CEC235-445D-B5F1-1F3C-B6DB1EE466FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

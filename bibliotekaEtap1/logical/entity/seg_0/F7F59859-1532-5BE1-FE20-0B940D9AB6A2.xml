@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7F59859-1532-5BE1-FE20-0B940D9AB6A2" name="Autor">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 10:42:07 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDautora" id="0A5B0EF3-4B65-E3E4-82A5-88E14CBA0D5C">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 10:42:25 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="DE0EBB82-5BE1-2247-41AE-FB82F20A624A">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 10:42:39 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="865C23F0-B97D-362F-C0A0-76276C6E23C5">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 10:42:43 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30105F61-62F4-D565-F35C-77ED783CBA22" name="Autor PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 10:42:35 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A5B0EF3-4B65-E3E4-82A5-88E14CBA0D5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

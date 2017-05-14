@@ -1,0 +1,1 @@
+Projekt biblioteki wykonany w Oracle SQLDeveloper i SQLDeveloper Data Modeler

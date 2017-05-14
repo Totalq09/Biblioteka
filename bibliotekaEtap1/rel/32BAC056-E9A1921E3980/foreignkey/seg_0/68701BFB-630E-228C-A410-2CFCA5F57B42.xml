@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68701BFB-630E-228C-A410-2CFCA5F57B42" containerWithKeyObject="E7333DAF-69B1-AC66-41E9-BD56372F930C" localFKIndex="8241DD7A-4B40-F457-7C8C-6DB5BFE8875A" name="Biblioteka_Czytelnik_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>356B2AA0-9AA0-9F69-7414-1536829D712A</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<arc>7D75979B-E946-B837-0CCC-A65A1E787E87</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6606052-F676-1DC3-41D8-DE1DBF178503</referredTableID>
+<keyObject>E2896097-FAB3-C099-0D5A-22C4F144BDBE</keyObject>
+<referredKeyID>E2896097-FAB3-C099-0D5A-22C4F144BDBE</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Biblioteka</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

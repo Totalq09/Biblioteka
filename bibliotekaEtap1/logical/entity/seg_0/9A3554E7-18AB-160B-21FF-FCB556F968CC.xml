@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A3554E7-18AB-160B-21FF-FCB556F968CC" name="Jezyk">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-12 16:36:33 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDjezyka" id="4450F340-2D70-95CE-EF45-E96D613789F5">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-12 16:36:37 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="E4315C9A-4FAD-E84D-D0C9-8648D9C50EFF">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-12 16:37:07 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33B39715-5CE3-D2CE-47CC-F374723B2D62" name="Jezyk PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-12 16:37:05 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4450F340-2D70-95CE-EF45-E96D613789F5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8C589C2B-950C-5CAC-CCBD-D0B012EC6175" name="Unique Name">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 19:56:50 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<newElementsIDs>E4315C9A-4FAD-E84D-D0C9-8648D9C50EFF</newElementsIDs>
+<usedAttributes>
+<attributeRef>E4315C9A-4FAD-E84D-D0C9-8648D9C50EFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

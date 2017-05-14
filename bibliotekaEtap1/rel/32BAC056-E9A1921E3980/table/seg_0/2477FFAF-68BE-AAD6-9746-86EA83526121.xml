@@ -1,0 +1,272 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2477FFAF-68BE-AAD6-9746-86EA83526121" name="Pozycja">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>7B11C37D-76EB-34FC-1DF1-B4359DC3BE76</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDpozycji" id="C5EA6A42-07FD-E012-B4F3-C0E9C9CC601E">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>3180AB04-0AAD-0990-CE0D-9A18280E2893</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tytul" id="8F87650D-E239-D0C3-06A1-854D66100328">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>4E12D01D-D401-F18F-6675-B976F2956375</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RokWydania" id="6C54ADDD-AA09-60E3-1B8A-7A5B8BBC22C2">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>E41E4640-A604-BE59-1DF7-2A8D432A668B</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="6AB8B58A-22AE-7BD9-0F39-8DF1BA580D9D">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>AD9E2342-D8C5-0F41-5073-D628F791E35B</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Autor_IDautora" id="626CB265-097F-2D47-83A1-2C92F403AA8B">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>92AE34E9-D78D-A978-65A1-0997E8500100</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB195C04-57F9-18FC-758D-9BC53302E2EA" referredColumn="4C44686D-F684-D227-C1D2-91BE52CEDC78"/>
+</associations>
+</Column>
+<Column name="Wydawca_IDwydawcy" id="10600FDA-1128-4BAE-B4A1-0B5DA71D22DC">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>0FD109A0-005B-9CDC-55A6-EB2BE9AFCC5E</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33C54C01-CDD9-D588-BE5D-F28E1B73397B" referredColumn="135700D3-8F7D-3AFD-B1BB-3BD9EB53171B"/>
+</associations>
+</Column>
+<Column name="Jezyk_IDjezyka" id="7A6F5B54-9392-4EF6-7341-A6B5E8A0B67B">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>0C0BF096-EF2B-91BD-C5E1-038F02062415</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65EB2E84-3A50-FB98-C063-EBC878ED6B58" referredColumn="DFA0D95B-D546-66D5-8424-9B81DD1BD4C6"/>
+</associations>
+</Column>
+<Column name="Gatunek_IDgatunku" id="911349EE-7384-1289-FF00-074F378CE6D9">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>ADD2FD40-475A-890F-3901-403DDDBBBBC1</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A0D079A-47A7-44D7-00D5-0535F738024A" referredColumn="E478C64D-C742-1EAE-B1B8-CD8EEB70DF70"/>
+</associations>
+</Column>
+<Column name="ISBN" id="B3FF84F3-F416-169E-C751-E07789DF7B35">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>567EA152-04BE-E9AF-6545-6EF56583A4F6</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr" id="9D66BD49-D2D1-64DF-0508-2FB62EE9DD01">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>093D0C5B-8F07-20B3-CACD-A12ABAA7BB8B</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ" id="1BA4378B-E2F2-8D30-436B-86E1325AF6C2">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<constraintName>CH_INH_Pozycja</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="Czasopismo" description="entity Czasopismo"/>
+<valueDef value="Dokumenty" description="entity Dokumenty"/>
+<valueDef value="Ksiazka" description="entity Ksiazka"/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+<dependentColumns>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>B3FF84F3-F416-169E-C751-E07789DF7B35</columnID>
+<dependAsMandatory>true</dependAsMandatory>
+<dependOnValue>false</dependOnValue>
+<discriminatorValue>Ksiazka</discriminatorValue>
+<id>61C7D3DE-4319-6107-678A-81270B51ADFF</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>9D66BD49-D2D1-64DF-0508-2FB62EE9DD01</columnID>
+<dependAsMandatory>true</dependAsMandatory>
+<dependOnValue>false</dependOnValue>
+<discriminatorValue>Czasopismo</discriminatorValue>
+<id>BC22C053-3651-A4D5-C692-CF482D4805B3</id>
+</dependentColumn>
+</dependentColumns>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6A982B1-CED3-9E38-800E-17F6DF7651AB" name="Pozycja_PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>E6AD5617-4B31-1F46-EBC9-1876B53022A8</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5EA6A42-07FD-E012-B4F3-C0E9C9CC601E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16EC2682-CF68-A233-D4CC-6A0737584621" name="Pozycja_Tytul_UN">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>3E6E8AEE-582A-AAFC-5A93-22B9FD7D0916</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F87650D-E239-D0C3-06A1-854D66100328"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71482683-D96B-23FD-1DA9-8142AAC67ECC" name="Pozycja_ISBN_UN">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>7C03393A-DED3-35AE-67F0-DC25DCB9C53D</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FF84F3-F416-169E-C751-E07789DF7B35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D4CAB90-8D96-C238-9A65-5A3532D81879" name="PozycjaTytul__IDX">
+<createdBy>piter</createdBy>
+<createdTime>2017-01-02 17:09:11 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F87650D-E239-D0C3-06A1-854D66100328"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2571594-B157-5FFF-4625-723B7A2B5E29" name="Pozycja_Autor_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>CC018160-40FD-67AC-8A07-522CD8582A0C</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="626CB265-097F-2D47-83A1-2C92F403AA8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E59A8BD4-6F88-F5EC-50BB-9ADFEF77C757" name="Pozycja_Wydawca_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>180455A1-40C2-95F4-E460-00E55144D32A</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10600FDA-1128-4BAE-B4A1-0B5DA71D22DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28977D8B-8C61-71BC-56AC-D1CD7987F02D" name="Pozycja_Gatunek_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>86D1D243-6A68-70AE-5DAC-F7A7FFE237CA</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="911349EE-7384-1289-FF00-074F378CE6D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="781F7002-639A-43EE-1387-EB395823AE11" name="Pozycja_Jezyk_FK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-14 20:46:05 UTC</createdTime>
+<generatorID>8DAA61D1-6C09-ACF6-885B-12FA04BD907C</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A6F5B54-9392-4EF6-7341-A6B5E8A0B67B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

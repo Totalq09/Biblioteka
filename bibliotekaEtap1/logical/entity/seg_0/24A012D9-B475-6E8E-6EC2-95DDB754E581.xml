@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24A012D9-B475-6E8E-6EC2-95DDB754E581" name="Wolumin">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 11:41:44 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDwoluminu" id="AE7A269C-EE03-57DE-8BB1-144216F898C5">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 11:41:59 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDpozycji" id="2D5B8015-2624-8345-DFBE-82EE411EEE5D">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:09:17 UTC</createdTime>
+<generatorID>3DF6377A-95DF-815D-44C2-76BC5B1E755C</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<referedAttribute>3180AB04-0AAD-0990-CE0D-9A18280E2893</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDplacowki" id="BCDEB8DF-9DDF-CEC6-2A98-87423DBB0E45">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-11 20:17:15 UTC</createdTime>
+<generatorID>16F67A06-DEDF-92CE-2379-BF58098BF905</generatorID>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<referedAttribute>4E6D1A4B-18A5-4834-84A8-3432C4EF12E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13C7B61F-894E-0D18-569F-A1DF7417E713" name="Wolumin PK">
+<createdBy>piter</createdBy>
+<createdTime>2016-12-09 11:42:57 UTC</createdTime>
+<ownerDesignName>bibliotekaEtap1</ownerDesignName>
+<engineerTo>
+<item key="32BAC056-ACC1-7DC0-9288-E9A1921E3980" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE7A269C-EE03-57DE-8BB1-144216F898C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
